@@ -1,7 +1,42 @@
-*{
-	box-sizing: border-box;
-}
-.search{
-	padding: 20px;
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+body{
+  overflow-x: hidden;
+  font-family:'Lato', sans-serif;
+  color: #505962;
+}
+
+/** Navbar**/
+.navbar-nav {
+border: 1px solid red;
+position: absolute;
+left: 40%;
+  }
+
+  .form-inline{
+	margin-right: 5%;
+  }
+
+/**Last update section**/
+
+.last-hour h2{
+font-size:12px;
+}
+.last-hour h2 span{
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+/**RIGHT SLIDE**/
+.carousel{
+	border: 1px solid blue;
+}
+
+/**REcomadation section ***/
+.reco-sec{
+}
+
+.reco-title{
+	background-color: black;
+	color: antiquewhite;
 }
