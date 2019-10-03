@@ -7,8 +7,7 @@ body{
 }
 
 /** Navbar**/
-.navbar-nav {
-border: 1px solid red;
+.navbar-nav{  
 position: absolute;
 left: 40%;
   }
@@ -37,6 +36,6 @@ font-size:12px;
 }
 
 .reco-title{
-	background-color: black;
-	color: antiquewhite;
+	background-color: #2E8B57;
+	color:white;;
 }
