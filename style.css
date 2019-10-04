@@ -3,18 +3,10 @@
 body{
   overflow-x: hidden;
   font-family:'Lato', sans-serif;
-  color: #505962;
+  /**background-color: #f8f9fa!important;**/
 }
 
 /** Navbar**/
-.navbar-nav{  
-position: absolute;
-left: 40%;
-  }
-
-  .form-inline{
-	margin-right: 5%;
-  }
 
 /**Last update section**/
 
@@ -27,8 +19,17 @@ font-size:12px;
 }
 
 /**RIGHT SLIDE**/
-.carousel{
-	border: 1px solid blue;
+.carousel-sec{
+  border: 2px solid red;
+
+  margin: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f9fa!important;
+}
+
+.w-100{
+  height:100%;
 }
 
 /**REcomadation section ***/
@@ -38,4 +39,9 @@ font-size:12px;
 .reco-title{
 	background-color: #2E8B57;
 	color:white;;
+}
+
+.img-sec{
+width:196px;
+height:100%;
 }
