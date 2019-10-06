@@ -9,7 +9,6 @@ body{
 /** Navbar**/
 .navbar{
   background-color:	#20B2AA;
-  color: #f8f9fa;
 }
 
 /**Last update section**/
@@ -48,8 +47,9 @@ position: absolute;
   top: 25%;
 }
 
-/**Events**/
-.jump h2{
+/**THE Menu**/
+
+.jump h3{
   font-size: 180%;
   text-transform: uppercase;
   text-align: center;
@@ -63,5 +63,45 @@ position: absolute;
   width: 15rem;
   height: .2rem;
   background-color: #20B2AA;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 1rem;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .15rem 1rem;
+  clear: both;
+  font-weight: 350;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .1em solid;
+  border-right: .1em solid transparent;
+  border-bottom: 0;
+  border-left: .1em solid transparent;
+}
+
+/**FOOTER**/
+.jump h4{
+  font-size: 100%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+footer .heading-underline{
+  width: 8rem;
+  height: .2rem;
+  background-color: #20B2AA;
+  margin: 0 auto 1rem;
 }
