@@ -91,6 +91,25 @@ position: absolute;
   border-left: .1em solid transparent;
 }
 
+.dropdown-menu {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .25rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: center;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
 /**FOOTER**/
 .jump h4{
   font-size: 100%;
