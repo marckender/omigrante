@@ -11,6 +11,20 @@ body{
   background-color:	#20B2AA;
 }
 
+
+
+.navbar-light .navbar-nav .nav-item>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+color: #f8f9fa;
+}
+
+}
+.nav-item:hover{
+  color: #20B2AA;
+}
+.navbar-light .navbar-brand{
+  color: #fff;
+  text-transform: uppercase;
+}
 /**Last update section**/
 .last-hour h2{
 font-size:12px;
@@ -30,6 +44,14 @@ font-size:12px;
 
 .w-100{
   height:100%;
+}
+
+.carousel-caption{
+  background-color: rgba(32,178,170,0.6 );
+  position: absolute;
+  left: 1%;
+  right: 50%;
+  top:50%;
 }
 
 /**REcomadation section ***/
@@ -53,6 +75,12 @@ position: absolute;
   font-size: 180%;
   text-transform: uppercase;
   text-align: center;
+  cursor: pointer;
+}
+
+.jump h3:hover{
+  color: #20B2AA;
+  transition: 0.2s;
 }
 
 .jump p{
@@ -68,11 +96,11 @@ position: absolute;
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: .15rem 1rem;
+  padding: .9rem 1rem;
   clear: both;
   font-weight: 350;
   color: #212529;
-  text-align: inherit;
+  text-align: center;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -94,13 +122,13 @@ position: absolute;
 .dropdown-menu {
   position: absolute;
   top: 80%;
-  left: 15%;
+  left: 25%;
   z-index: 1000;
   display: none;
   float: left;
   min-width: 10rem;
   padding: .5rem 0;
-  margin: .25rem 0 0;
+  margin: .15rem 0 0;
   font-size: 1rem;
   color: #212529;
   text-align: center;
@@ -109,6 +137,15 @@ position: absolute;
   background-clip: padding-box;
   border: 1px solid rgba(0,0,0,.15);
   border-radius: .25rem;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
 }
 /**FOOTER**/
 .jump h4{
